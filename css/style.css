@@ -149,24 +149,65 @@ img{
     font-size: 0.8rem;
 }
 
-.con-scomparsa{
-    position: relative;
-}
+ 
 
-.scomparsa{
+  .overlay {
     position: absolute;
     top: 0;
-    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .3s ease;
+
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .hidden{
+    top: 0;
+    left: 0;
+    position: absolute;
+
+  }
+
+
+footer{
+    background-color:black ;
+    color: white;
+    padding: 1rem;
 }
 
- .model:hover{
-   visibility: hidden;
+.end{
+    display: flex;
+   text-align: left;
 }
 
+.space-between{
+    justify-content: space-between;
+}
 
+ span{
+   font-size: 0.6rem;
+   margin-right: 1rem;
+}
+.srl{
+    font-size: 1rem;
+    margin-left: 5rem;
+}
 
+.diritti{
+    margin-left: 5rem;
 
+}
 
+h4{
+    font-size: 1rem;
+    margin-right: 5rem;
+}
 
-
-
+.fa-brands{
+    font-size: 0.6rem;
+}
