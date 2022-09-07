@@ -1,3 +1,4 @@
+/* #region ASSETS */
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@
     width: 80%;
     max-width: 1200px;
     margin: auto;
+    text-align: center;
 }
 
 
@@ -24,3 +26,147 @@
         flex-wrap: wrap;
     
 }
+
+body{
+    font-family:'Noto Sans JP', sans-serif;
+}
+/* #endregion ASSETS */
+
+/* #region HEADER */
+header{
+    background-color: #ff6900;
+    color: white;
+    font-size: 0.8rem;
+    padding: 1rem 0;
+    box-shadow: 0 0 5px black ;
+    margin-bottom: 2rem;
+}
+
+.uomo:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.donna:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.bambini:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+ .menu:hover i{
+    cursor: pointer;
+ }
+
+.menu i {
+    margin: 0 0.3rem;
+}
+
+.logo{
+    height: 1.5rem;
+}
+
+/* #endregion HEADER */
+
+/* #region DIVISIONE IN COLONNA */
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+/* #endregion DIVISIONE IN COLONNA */
+
+/* #region MAIN */
+img{
+    height: 30rem;
+}
+
+.model{
+    position: relative;
+}
+
+.preferiti-first{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.8rem;
+    background-color: white;
+    padding: 0.8rem;
+}
+
+.sconto-first{
+    position: absolute;
+    bottom:2rem ;
+    left: 0.8rem;
+    background-color: #ff0000;
+    padding: 0 0.5rem;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.sostenibile-first{
+    position: absolute;
+    bottom:2rem ;
+    left: 4rem;
+    background-color: #008000;
+    padding: 0 0.5rem;
+    color: white;
+    font-size: 0.8rem;
+
+}
+
+.sostenibile-last{
+    position: absolute;
+    bottom:2rem ;
+    left: 0.8rem;
+    background-color: #008000;
+    padding: 0 0.5rem;
+    color: white;
+    font-size: 0.8rem;
+
+}
+.vestiti{
+    text-align: left;
+    margin-left: 1rem;
+    line-height: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+.marca {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.vecchio_prezzo{
+    font-weight: 300;
+    text-decoration: line-through;
+    font-size: 0.8rem;  
+}
+.prezzo{
+    color: #ff0000;
+    text-decoration: none; 
+    font-weight: 500 bold;  
+    font-size: 0.8rem;
+}
+
+.con-scomparsa{
+    position: relative;
+}
+
+.scomparsa{
+    position: absolute;
+    top: 0;
+    
+}
+
+ .model:hover{
+   visibility: hidden;
+}
+
+
+
+
+
+
+
+
